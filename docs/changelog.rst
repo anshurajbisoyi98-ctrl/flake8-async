@@ -6,7 +6,7 @@ Changelog
 
 Future
 ======
-- Extend :ref:`ASYNC401 <async401>` to cover parameterized exception-group types, ``pytest.RaisesExc``, bare groups inside ``pytest.RaisesGroup``, and ``pytest.mark.xfail(raises=...)``. `(issue #475) <https://github.com/python-trio/flake8-async/issues/475>`_
+- Extend :ref:`ASYNC401 <async401>` to catch more exception-group assertions. `(issue #475) <https://github.com/python-trio/flake8-async/issues/475>`_
 
 26.8.1
 ======
