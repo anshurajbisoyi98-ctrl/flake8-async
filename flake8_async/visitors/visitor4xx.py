@@ -113,7 +113,7 @@ EXCGROUP_QUALNAMES = (
 class Visitor401(Flake8AsyncVisitor):
     error_codes: Mapping[str, str] = {
         "ASYNC401": (
-            "Use `pytest.RaisesGroup` to check the structure of exception group {}."
+            "Use `pytest.RaisesGroup` instead of expecting {} directly."
         )
     }
 
